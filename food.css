@@ -1,7 +1,18 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: youngserif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: outfit;
 }
 .root{
     --nutmeg: hsl(14, 45%, 36%);
